@@ -10,13 +10,13 @@ import DetailsBook from "./features/DetailsBook/DetailsBook";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/booklist">
       <div className="App">
         <Container>
           <SearchWidget />
           <Routes>
-            <Route path="/booklist" element={<BooksList />} />
-            <Route path="booklist/:slug" element={<DetailsBook />} />
+            <Route path="/" element={<BooksList />} />
+            <Route path="/:slug" element={<DetailsBook />} />
           </Routes>
         </Container>
       </div>
