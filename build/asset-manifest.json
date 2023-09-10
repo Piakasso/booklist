@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.094587b1.css",
-    "main.js": "/static/js/main.133a1d15.js",
-    "static/media/books.jpg": "/static/media/books.0a883160ee8d05fdca15.jpg",
-    "static/media/801.gif": "/static/media/801.9a569ddc7b14cb1a08a4.gif",
-    "static/media/SadNyan.webp": "/static/media/SadNyan.f24fc449feda5ae77ed4.webp",
-    "static/media/search.svg": "/static/media/search.bf347c2e8a47a6a91da32b1c12849bfd.svg",
-    "index.html": "/index.html",
-    "main.094587b1.css.map": "/static/css/main.094587b1.css.map",
-    "main.133a1d15.js.map": "/static/js/main.133a1d15.js.map"
+    "main.css": "/booklist/static/css/main.094587b1.css",
+    "main.js": "/booklist/static/js/main.a72bd9db.js",
+    "static/media/books.jpg": "/booklist/static/media/books.0a883160ee8d05fdca15.jpg",
+    "static/media/801.gif": "/booklist/static/media/801.9a569ddc7b14cb1a08a4.gif",
+    "static/media/SadNyan.webp": "/booklist/static/media/SadNyan.f24fc449feda5ae77ed4.webp",
+    "static/media/search.svg": "/booklist/static/media/search.bf347c2e8a47a6a91da32b1c12849bfd.svg",
+    "index.html": "/booklist/index.html",
+    "main.094587b1.css.map": "/booklist/static/css/main.094587b1.css.map",
+    "main.a72bd9db.js.map": "/booklist/static/js/main.a72bd9db.js.map"
   },
   "entrypoints": [
     "static/css/main.094587b1.css",
-    "static/js/main.133a1d15.js"
+    "static/js/main.a72bd9db.js"
   ]
 }

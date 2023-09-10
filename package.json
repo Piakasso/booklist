@@ -1,5 +1,6 @@
 {
   "name": "booklist",
+  "homepage": "https://piakasso.github.io/booklist",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
