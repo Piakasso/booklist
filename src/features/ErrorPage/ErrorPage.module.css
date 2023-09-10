@@ -1,0 +1,13 @@
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 20px 0;
+  align-items: center;
+  gap: 20px;
+}
+
+.errorImg {
+  max-width: 300px;
+}

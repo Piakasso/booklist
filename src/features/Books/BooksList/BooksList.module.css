@@ -1,0 +1,28 @@
+.booksList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+  padding: 40px 0 0 0;
+}
+
+.total {
+  display: block;
+  padding-top: 20px;
+}
+
+.qty {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.enter {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .booksList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
