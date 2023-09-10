@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.094587b1.css",
+    "main.js": "/static/js/main.490189fd.js",
+    "static/media/books.jpg": "/static/media/books.0a883160ee8d05fdca15.jpg",
+    "static/media/801.gif": "/static/media/801.9a569ddc7b14cb1a08a4.gif",
+    "static/media/SadNyan.webp": "/static/media/SadNyan.f24fc449feda5ae77ed4.webp",
+    "static/media/search.svg": "/static/media/search.bf347c2e8a47a6a91da32b1c12849bfd.svg",
+    "index.html": "/index.html",
+    "main.094587b1.css.map": "/static/css/main.094587b1.css.map",
+    "main.490189fd.js.map": "/static/js/main.490189fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.094587b1.css",
+    "static/js/main.490189fd.js"
+  ]
+}
