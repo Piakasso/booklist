@@ -15,8 +15,8 @@ function App() {
         <Container>
           <SearchWidget />
           <Routes>
-            <Route path="/" index element={<BooksList />} />
-            <Route path="/:slug" element={<DetailsBook />} />
+            <Route path="/booklist" index element={<BooksList />} />
+            <Route path="booklist/:slug" element={<DetailsBook />} />
           </Routes>
         </Container>
       </div>
