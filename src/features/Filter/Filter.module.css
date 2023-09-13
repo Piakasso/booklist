@@ -13,3 +13,9 @@
   width: 250px;
   text-align: center;
 }
+
+@media (max-width: 479px) {
+  .filtersDropdown {
+    width: 140px;
+  }
+}
