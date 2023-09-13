@@ -6,7 +6,6 @@ import { selectActiveFilter, setFilter } from "./filterSlice";
 const Filter = () => {
   const { filtersDropdown, filterLabel } = styles;
   const activeFilter = useSelector(selectActiveFilter);
-
   const filters = useSelector(memoizedSelectFilters);
 
   const dispatch = useDispatch();
@@ -24,6 +23,7 @@ const Filter = () => {
         className={filtersDropdown}
         value={activeFilter}
         onChange={handleFilter}
+        disabled={filters.length > 0 ? false : true}
       >
         <option value="all">all</option>
         {filters.map((item) => (

@@ -17,7 +17,10 @@ const SearchWidget = () => {
   return (
     <div className={searchWidget}>
       <div className={widgetText}>
-        <span className={widgetTitle}> What book you looking for?</span>
+        <span className={widgetTitle}>
+          What book you
+          <br /> looking for?
+        </span>
         <span className={widgetSubtitle}>
           explore catalog and find your favourite books.
         </span>

@@ -19,7 +19,7 @@ const BooksList = () => {
   const error = useSelector((state) => state.books.error);
 
   return (
-    <div>
+    <div className={styles.listContainer}>
       {totalItems ? (
         <div>
           <span className={styles.total}>

@@ -28,6 +28,7 @@ const SortButton = ({ children }) => {
         active === children ? `${sortButton} ${sortActive}` : sortButton
       }
       onClick={handleActiveSort}
+      disabled={searchString === "" ? true : false}
     >
       {children}
     </button>

@@ -5,6 +5,10 @@
   padding: 40px 0 0 0;
 }
 
+.listContainer {
+  margin-bottom: 20px;
+}
+
 .total {
   display: block;
   padding-top: 20px;
@@ -21,8 +25,20 @@
   font-weight: 600;
 }
 
+@media (max-width: 1023px) {
+  .booksList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media (max-width: 767px) {
   .booksList {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 424px) {
+  .booksList {
+    grid-template-columns: 1fr;
   }
 }

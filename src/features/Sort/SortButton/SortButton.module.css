@@ -9,3 +9,9 @@
 .sortActive {
   background-color: #fdbf0f;
 }
+
+@media (max-width: 479px) {
+  .sortButton {
+    padding: 4px 8px;
+  }
+}

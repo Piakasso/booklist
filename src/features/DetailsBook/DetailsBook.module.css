@@ -40,6 +40,12 @@
 .loaderImg {
   margin: 20px 0;
 }
+@media (max-width: 767px) {
+  .detailsBook {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 479px) {
   .detailsText {
     align-items: center;

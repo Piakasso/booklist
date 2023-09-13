@@ -35,7 +35,7 @@ const SearchForm = () => {
         onChange={handleInputValue}
         value={inputValue}
         onKeyDown={(e) => {
-          if (e.key === "Enter") {
+          if (e.key === "Enter" && inputValue.length > 0) {
             e.preventDefault();
             handleSubmit();
           }

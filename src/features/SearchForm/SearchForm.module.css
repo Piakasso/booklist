@@ -34,3 +34,13 @@
     width: 280px;
   }
 }
+
+@media (max-width: 424px) {
+  .searchField {
+    width: 180px;
+    font-size: 14px;
+  }
+  .searchForm::after {
+    width: 80%;
+  }
+}
